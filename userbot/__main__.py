@@ -33,7 +33,7 @@ try:
     ).json()
     if user.id in kyyblacklist:
         LOGS.warning(
-            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @Kayzuuuuu"
+            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @wndrslna "
         )
         sys.exit(1)
 except Exception as e:
@@ -46,13 +46,13 @@ for module_name in ALL_MODULES:
 LOGS.info(
     f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/KayzuSupport")
 LOGS.info(
-    f"✨Kay-Userbot✨ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"✨ZezanX-Userbot✨ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
 
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_message(BOTLOG_CHATID, "✨ **Kay Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.0@Kay-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @KayXChannel ")
+            await bot.send_message(BOTLOG_CHATID, "✨ **ZezanX Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.0@ZezanX-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** https://t.me/zezanx ")
     except Exception as e:
         LOGS.info(str(e))
     try:
