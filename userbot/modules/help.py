@@ -28,7 +28,7 @@ async def help(event):
         await edit_or_reply(event, "**🐣ZezanX-υѕєявσт🐣**\n\n"
                             f"**◉ Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◉ Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                             "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-                            f"◉◉\n\n☞ : https://t.me/zezanx")
+                            f"◉ {string}◉\n\n☞   : https://t.me/zezanx")
         await event.reply(
             f"\n**Contoh Ketik** `{cmd}help animasi` **Untuk Melihat Informasi Module**"
         )
