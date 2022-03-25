@@ -24,7 +24,7 @@ absen = [
     "**Hadir kak maap telat** 🥺",
 ]
 
-kay = [
+Zezan = [
     "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
     "**Iya Bang kenapa?**",
     "**Uuyy Bang**",
@@ -61,13 +61,13 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=1904791338, pattern=r"^.absen$")
-async def _(kay):
+async def _(zezan):
     await kay.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1904791338, pattern=r"^.kay$")
-async def _(kay):
-    await kay.reply(random.choice(kay))
+@register(incoming=True, from_users=1904791338, pattern=r"^.zezan$")
+async def _(zezan):
+    await kay.reply(random.choice(zezan))
 
 
 @kay_cmd(pattern="sping$")
@@ -86,7 +86,7 @@ async def redis(pong):
     await xx.edit(
         f"**[{user.first_name}](tg://user?id={user.id}) **        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kay-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'ZezanX-Userbot` \n" % (duration)
     )
 
 
@@ -125,7 +125,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**✨ҡᴧʏ-υѕєявσт✨**\n"
+        f"**✨ZezanX-υѕєявσт✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -150,7 +150,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await sinyal.edit(
-        f"**✨ ҡᴧʏ-υѕєявσт ✨**\n\n"
+        f"**✨ ZezanX-υѕєявσт ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -203,7 +203,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡᴧʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨ZezanX-υѕєявσт✨"
     )
 
 
@@ -231,7 +231,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     user = await pong.client.get_me()
-    await pong.edit(f"**✨KayName : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
+    await pong.edit(f"**✨ZezanXName : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
 
 
 @kay_cmd(pattern="pink$")
