@@ -25,10 +25,10 @@ async def help(event):
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t ‽ "
-        await edit_or_reply(event, "**🐣ҡᴧʏ-υѕєявσт🐣**\n\n"
+        await edit_or_reply(event, "**🐣ZezanX-υѕєявσт🐣**\n\n"
                             f"**◉ Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◉ Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                             "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-                            f"◉ {string}◉\n\n☞  ᴘʀᴏᴊᴇᴄᴛ : @kayzuchannel")
+                            f"◉◉\n\n☞ : https://t.me/zezanx")
         await event.reply(
             f"\n**Contoh Ketik** `{cmd}help animasi` **Untuk Melihat Informasi Module**"
         )
