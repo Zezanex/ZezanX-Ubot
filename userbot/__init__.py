@@ -186,7 +186,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/Zezanex/ZezanX-Ubot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kayzu-Ubot")
+    "UPSTREAM_REPO_BRANCH", "ZezanX-Ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -280,7 +280,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kay-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "ZezanX-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "3.1.0")
@@ -302,8 +302,8 @@ INLINE_PIC = os.environ.get(
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
 
-# °Kay-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Kayzuuuuu"
+# °ZezanX-Userbot°
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/ @wndrslna "
 
 DEFAULT = list(map(int, b64decode("MTkwNDc5MTMzOA==").split()))
 
@@ -451,7 +451,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @KayzuSupport and Channel @KayXChannel to see the updates of userbot"
+            "Join Support Group https://t.me/zxzansupport and Channel https://t.me/zezanx  to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -604,7 +604,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✨ ҡᴧʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✨ ZezanX-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -709,15 +709,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Kay-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Kay-Ex](https://t.me/Kayzuuuuu)\n✣ **sᴜᴘᴘᴏʀᴛ :** @KayzuSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Kay-Userbot](https://github.com/Kayzyu/Kayzu-Ubot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ZezanX-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [@wndrslna ](https://t.me/zezanx) \n✣ **sᴜᴘᴘᴏʀᴛ :** https://t.me/zxzansupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ZezanX-Userbot](https://github.com/Zezanex/ZezanX-Ubot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/KayzuSupport"),
+                                "https://t.me/zxzansupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Kayzyu/Kayzu-Ubot"),
+                                "https://github.com/Zezanex/ZezanX-Ubot"),
                         ],
                     ],
                     link_preview=False,
@@ -756,23 +756,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ҡᴧʏ-υѕєявσт ✨",
-                    description="Kay - Userbot | Telethon",
-                    url="https://t.me/KayXChannel",
+                    title="✨ ZezanX-υѕєявσт ✨",
+                    description="ZezanX - Userbot | Telethon",
+                    url="https://https://t.me/zezanx",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Kay-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @KayXChannel\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ZezanX-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** https://t.me/zezanx\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/KayzuSupport"),
+                                "https://t.me/https://t.me/zxzansupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Kayzyu/Kayzu-Ubot"),
+                                "https://github.com/Zezanex/ZezanX-Ubot"),
                         ],
                     ],
                     link_preview=False,
