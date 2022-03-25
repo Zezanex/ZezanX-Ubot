@@ -1,4 +1,4 @@
-<h1 align="center">ҡᴧʏ-υѕєявσт
+<h1 align="center"> ZezanX-υѕєявσт
 </h1>
 
 <p align="center">
@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot/commits/Kayzu-Ubot"><img src="https://img.shields.io/github/last-commit/Kayzyu/Kayzu-Ubot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot"> <img src="https://img.shields.io/github/repo-size/Kayzyu/Kayzu-Ubot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/Zezanex/ZezanX-Ubot/commits/ZezanX-Ubot"><img src="https://img.shields.io/github/last-commit/Zezanex/ZezanX-Ubot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
+    <a href="https://github.com/Zezanex/ZezanX-Ubot"> <img src="https://img.shields.io/github/repo-size/Zezanex/ZezanX-Ubot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
@@ -31,7 +31,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ### Support & Updates 
-<a href="https://t.me/KayzuSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KayXChannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/zxzansupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/https://t.me/zezanx"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Credits
 
